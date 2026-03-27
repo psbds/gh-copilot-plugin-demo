@@ -8,7 +8,10 @@
     },
     "license": "MIT",
     "keywords": [],
-    "agents": "agents/netdeveloper.agent.md",
+    "agents": [
+        "agents/netdeveloper.agent.md",
+        "agents/netdeveloper2.agent.md"
+    ],
     "skills": [
         "skills/demo"
     ],
