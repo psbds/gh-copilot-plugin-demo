@@ -2,7 +2,8 @@
     "name": "copilot-plugins",
     "metadata": {
         "description": "GitHub Copilot plugins",
-        "version": "1.0.0"
+        "version": "1.0.0",
+        "pluginRoot": "./plugins"
     },
     "owner": {
         "name": "GitHub",
@@ -11,13 +12,9 @@
     "plugins": [
         {
             "name": "demo",
-            "source": "./plugins/demo",
+            "source": "demo",
             "description": "Demo.",
-            "version": "1.0.0",
-            "agents": "agents/",
-            "skills": [
-                "./skills"
-            ]
+            "version": "1.0.0"
         }
     ]
 }

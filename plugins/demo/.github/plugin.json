@@ -8,9 +8,9 @@
     },
     "license": "MIT",
     "keywords": [],
-    "agents": "agents/",
+    "agents": "agents/netdeveloper.agent.md",
     "skills": [
-        "skills/"
+        "skills/demo"
     ],
     "hooks": "hooks.json",
     "mcpServers": ".mcp.json"
